@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+    --bg-primary: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-elevated: #ffffff;
+
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+
+    --border: #e2e8f0;
+
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+}
+
+.dark {
+    --bg-primary: #0b1120;
+    --bg-surface: #111827;
+    --bg-elevated: #172033;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+
+    --border: #273449;
+
+    --primary: #6366f1;
+    --primary-hover: #818cf8;
+
+    --success: #34d399;
+    --warning: #fbbf24;
+    --danger: #f87171;
+}
+
+.app-background {
+    background-color: var(--bg-primary);
+}
+
+.surface {
+    background-color: var(--bg-surface);
+}
+
+.elevated-surface {
+    background-color: var(--bg-elevated);
+}
+
+.primary-text {
+    color: var(--text-primary);
+}
+
+.secondary-text {
+    color: var(--text-secondary);
+}
+
+.muted-text {
+    color: var(--text-muted);
+}
+
+.app-border {
+    border-color: var(--border);
+}
+
+.primary-button {
+    background-color: var(--primary);
+}
+
+.primary-button:hover {
+    background-color: var(--primary-hover);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
